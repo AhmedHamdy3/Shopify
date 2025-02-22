@@ -45,7 +45,7 @@ Follow these steps to install and run the project on your local machine:
 ### **Steps**
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/shopify-ecommerce.git
+   https://github.com/AhmedHamdy3/Shopify
    ```
 2. **Open the Project**:
    - Open the solution file (`Shopify.sln`) in Visual Studio.
