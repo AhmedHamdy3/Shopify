@@ -1,0 +1,15 @@
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.csproj.AssemblyReference.cache
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.AssemblyInfoInputs.cache
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.AssemblyInfo.cs
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\bin\Debug\net9.0\Shopify.BussinessLogic.deps.json
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\bin\Debug\net9.0\Shopify.BussinessLogic.dll
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\bin\Debug\net9.0\Shopify.BussinessLogic.pdb
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\bin\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\bin\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify..0FA88E71.Up2Date
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.dll
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\refint\Shopify.BussinessLogic.dll
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\Shopify.BussinessLogic.pdb
+D:\ITI\ADO\Shopify\FinalProject.BussinessLogic\obj\Debug\net9.0\ref\Shopify.BussinessLogic.dll

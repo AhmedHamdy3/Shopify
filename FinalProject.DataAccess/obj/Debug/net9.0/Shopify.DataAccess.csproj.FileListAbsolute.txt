@@ -1,0 +1,24 @@
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.deps.json
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.AssemblyInfo.cs
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\refint\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\ref\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.deps.json
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.AssemblyInfo.cs
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\refint\Shopify.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\ref\Shopify.DataAccess.dll

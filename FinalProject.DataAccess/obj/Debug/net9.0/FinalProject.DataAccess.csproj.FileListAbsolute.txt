@@ -1,0 +1,48 @@
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.deps.json
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfo.cs
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\refint\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\FinalProject.presentation\FinalProject.DataAccess\obj\Debug\net9.0\ref\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.deps.json
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfo.cs
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\refint\FinalProject.DataAccess.dll
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\FinallProject\FinalProject.DataAccess\obj\Debug\net9.0\ref\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.deps.json
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfo.cs
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\refint\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\ref\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.deps.json
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\bin\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.AssemblyInfo.cs
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\refint\FinalProject.DataAccess.dll
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\FinalProject.DataAccess.pdb
+D:\ITI\ADO\Shopify - Copy\FinalProject.DataAccess\obj\Debug\net9.0\ref\FinalProject.DataAccess.dll
