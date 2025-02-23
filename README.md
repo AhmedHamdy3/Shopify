@@ -65,7 +65,7 @@ Follow these steps to install and run the project on your local machine:
        <connectionStrings>
          <add name="Shopify" 
               connectionString="Server=your_server_name;Database=Shopify;User Id=your_username;Password=your_password;"
-              providerName="System.Data.SqlClient" />
+              />
        </connectionStrings>
       </configuration>
       ```
@@ -74,7 +74,7 @@ Follow these steps to install and run the project on your local machine:
       - Replace the placeholders in the `connectionString` attribute with your SQL Server credentials:
        - `your_server_name`: The name of your SQL Server instance (e.g., `localhost`, `.\\SQLEXPRESS`, or a remote server address).
        - `Shopify`: The name of your database (create this database in SQL Server if it doesn’t exist).
-       - `your_username`: Your SQL Server username (use `Integrated Security=True` if using Windows Authentication).
+       - `your_username`: Your SQL Server username (use `Trusted_Connection=True` and `Trust Server Certificate=True` if using Windows Authentication).
        - `your_password`: Your SQL Server password.
 
 4. **Build and Run**:
