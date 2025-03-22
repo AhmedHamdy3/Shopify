@@ -32,27 +32,27 @@ Welcome to **Shopify**, a desktop e-commerce application built using **C#**, **W
 
 ---
 
-## Screenshots
+## 📷Screenshots
 
 ### Login & Register
-![Home Page](./images/Home.png)
-![Login Page](./images/Login.png)
-![Register Page](./images/Register.png)
+![Home Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/Home.png)
+![Login Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/Login.png)
+![Register Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/Register.png)
 
 
 ### User
-![User Home Page](./images/UserHome.png)
-![User Favourite Page](./images/UserFavourite.png)
-![User Profile Page](./images/UserProfile.png)
-![User Edit Profile Page](./images/UserEditProfile.png)
-![User Change Password Page](./images/UserChangePassword.png)
+![User Home Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/UserHome.png)
+![User Favourite Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/UserFavourite.png)
+![User Profile Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/UserProfile.png)
+![User Edit Profile Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/UserEditProfile.png)
+![User Change Password Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/UserChangePassword.png)
 
 
 ### Admin
-![Admin Home Page](./images/AdminHome.png)
-![Admin Products Page](./images/AddProduct.png)
-![Admin Add Product Page](./images/AddProduct.png)
-![Admin Update Product Page](./images/UpdateProdcut.png)
+![Admin Home Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/AdminHome.png)
+![Admin Products Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/AddProduct.png)
+![Admin Add Product Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/AddProduct.png)
+![Admin Update Product Page](https://github.com/AhmedHamdy3/Shopify/blob/main/images/UpdateProdcut.png)
 
 
 ---
