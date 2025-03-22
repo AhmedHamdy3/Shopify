@@ -34,24 +34,22 @@
             txt_address = new TextBox();
             nud_age = new NumericUpDown();
             panel3 = new Panel();
-            pb_unShowPassword = new PictureBox();
+            btn_showPassword = new Button();
+            cbtn_register = new CustomControls.CustomButton();
             lbl_emailerror = new Label();
             lbl_passworderror = new Label();
             lbl_login = new Label();
             label4 = new Label();
             lbl_ster = new Label();
-            pb_register = new PictureBox();
             label3 = new Label();
             chb_terms = new CheckBox();
             label7 = new Label();
-            lbl_showPassword = new Label();
             panel5 = new Panel();
             panel4 = new Panel();
             panel2 = new Panel();
             panel1 = new Panel();
             label1 = new Label();
             label2 = new Label();
-            pb_showPassword = new PictureBox();
             panel6 = new Panel();
             lbl_ageerror = new Label();
             lbl_usernameerror = new Label();
@@ -69,13 +67,10 @@
             label15 = new Label();
             ((System.ComponentModel.ISupportInitialize)nud_age).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_unShowPassword).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pb_register).BeginInit();
             panel5.SuspendLayout();
             panel4.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_showPassword).BeginInit();
             panel6.SuspendLayout();
             panel11.SuspendLayout();
             panel12.SuspendLayout();
@@ -133,39 +128,66 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(0, 124, 127);
-            panel3.Controls.Add(pb_unShowPassword);
+            panel3.Controls.Add(btn_showPassword);
+            panel3.Controls.Add(cbtn_register);
             panel3.Controls.Add(lbl_emailerror);
             panel3.Controls.Add(lbl_passworderror);
             panel3.Controls.Add(lbl_login);
             panel3.Controls.Add(label4);
             panel3.Controls.Add(lbl_ster);
-            panel3.Controls.Add(pb_register);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(chb_terms);
             panel3.Controls.Add(label7);
-            panel3.Controls.Add(lbl_showPassword);
             panel3.Controls.Add(panel5);
             panel3.Controls.Add(panel2);
             panel3.Controls.Add(label1);
             panel3.Controls.Add(label2);
-            panel3.Controls.Add(pb_showPassword);
             panel3.ForeColor = SystemColors.ControlText;
             panel3.Location = new Point(510, 0);
             panel3.Name = "panel3";
             panel3.Size = new Size(510, 663);
             panel3.TabIndex = 15;
             // 
-            // pb_unShowPassword
+            // btn_showPassword
             // 
-            pb_unShowPassword.Image = Properties.Resources.Screenshot_2025_02_22_192515;
-            pb_unShowPassword.Location = new Point(319, 331);
-            pb_unShowPassword.Name = "pb_unShowPassword";
-            pb_unShowPassword.Size = new Size(29, 17);
-            pb_unShowPassword.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_unShowPassword.TabIndex = 21;
-            pb_unShowPassword.TabStop = false;
-            pb_unShowPassword.Visible = false;
-            pb_unShowPassword.Click += pb_unShowPassword_Click;
+            btn_showPassword.BackColor = Color.Transparent;
+            btn_showPassword.CausesValidation = false;
+            btn_showPassword.Cursor = Cursors.Hand;
+            btn_showPassword.FlatAppearance.BorderSize = 0;
+            btn_showPassword.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn_showPassword.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn_showPassword.FlatStyle = FlatStyle.Flat;
+            btn_showPassword.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_showPassword.ForeColor = Color.White;
+            btn_showPassword.Image = Properties.Resources.Eye_white;
+            btn_showPassword.ImageAlign = ContentAlignment.BottomLeft;
+            btn_showPassword.Location = new Point(319, 324);
+            btn_showPassword.Name = "btn_showPassword";
+            btn_showPassword.Size = new Size(101, 29);
+            btn_showPassword.TabIndex = 23;
+            btn_showPassword.Text = "Show";
+            btn_showPassword.TextAlign = ContentAlignment.BottomCenter;
+            btn_showPassword.UseVisualStyleBackColor = false;
+            btn_showPassword.Click += btn_showPassword_Click;
+            // 
+            // cbtn_register
+            // 
+            cbtn_register.BackColor = Color.White;
+            cbtn_register.BorderColor = Color.Black;
+            cbtn_register.BorderRadius = 25;
+            cbtn_register.BorderSize = 0;
+            cbtn_register.Cursor = Cursors.Hand;
+            cbtn_register.FlatAppearance.BorderSize = 0;
+            cbtn_register.FlatStyle = FlatStyle.Flat;
+            cbtn_register.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_register.ForeColor = Color.FromArgb(0, 124, 127);
+            cbtn_register.Location = new Point(72, 475);
+            cbtn_register.Name = "cbtn_register";
+            cbtn_register.Size = new Size(145, 49);
+            cbtn_register.TabIndex = 19;
+            cbtn_register.Text = "Register";
+            cbtn_register.UseVisualStyleBackColor = false;
+            cbtn_register.Click += cbtn_register_Click;
             // 
             // lbl_emailerror
             // 
@@ -227,18 +249,6 @@
             lbl_ster.TabIndex = 18;
             lbl_ster.Text = "ster";
             // 
-            // pb_register
-            // 
-            pb_register.Cursor = Cursors.Hand;
-            pb_register.Image = Properties.Resources.Screenshot_2025_02_21_165535;
-            pb_register.Location = new Point(72, 474);
-            pb_register.Name = "pb_register";
-            pb_register.Size = new Size(145, 49);
-            pb_register.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_register.TabIndex = 19;
-            pb_register.TabStop = false;
-            pb_register.Click += pb_register_Click;
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -277,19 +287,6 @@
             label7.Size = new Size(270, 31);
             label7.TabIndex = 17;
             label7.Text = "Credentials Information";
-            // 
-            // lbl_showPassword
-            // 
-            lbl_showPassword.AutoSize = true;
-            lbl_showPassword.Cursor = Cursors.Hand;
-            lbl_showPassword.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_showPassword.ForeColor = Color.White;
-            lbl_showPassword.Location = new Point(343, 329);
-            lbl_showPassword.Name = "lbl_showPassword";
-            lbl_showPassword.Size = new Size(47, 20);
-            lbl_showPassword.TabIndex = 13;
-            lbl_showPassword.Text = "Show";
-            lbl_showPassword.Click += lbl_showPassword_Click;
             // 
             // panel5
             // 
@@ -350,17 +347,6 @@
             label2.Size = new Size(76, 20);
             label2.TabIndex = 11;
             label2.Text = "Password";
-            // 
-            // pb_showPassword
-            // 
-            pb_showPassword.Image = Properties.Resources.Screenshot_2025_02_21_163348;
-            pb_showPassword.Location = new Point(321, 333);
-            pb_showPassword.Name = "pb_showPassword";
-            pb_showPassword.Size = new Size(28, 14);
-            pb_showPassword.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_showPassword.TabIndex = 10;
-            pb_showPassword.TabStop = false;
-            pb_showPassword.Click += pb_showPassword_Click;
             // 
             // panel6
             // 
@@ -537,15 +523,12 @@
             ((System.ComponentModel.ISupportInitialize)nud_age).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_unShowPassword).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pb_register).EndInit();
             panel5.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_showPassword).EndInit();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             panel11.ResumeLayout(false);
@@ -566,7 +549,6 @@
         private TextBox txt_address;
         private NumericUpDown nud_age;
         private Panel panel3;
-        private Label lbl_showPassword;
         private Panel panel5;
         private Panel panel4;
         private Panel panel2;
@@ -586,8 +568,6 @@
         private Panel panel11;
         private Panel panel12;
         private Label label12;
-        private PictureBox pb_showPassword;
-        private PictureBox pb_register;
         private Label label5;
         private Label lbl_ster;
         private Label label3;
@@ -598,6 +578,7 @@
         private Label lbl_ageerror;
         private Label lbl_emailerror;
         private Label lbl_passworderror;
-        private PictureBox pb_unShowPassword;
+        private CustomControls.CustomButton cbtn_register;
+        private Button btn_showPassword;
     }
 }

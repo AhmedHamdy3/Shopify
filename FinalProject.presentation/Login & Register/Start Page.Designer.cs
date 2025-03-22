@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(startForm));
             login = new Button();
             pictureBox2 = new PictureBox();
             label1 = new Label();
@@ -62,7 +61,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.White;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources._3516854;
             pictureBox2.Location = new Point(451, 79);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(508, 504);
@@ -116,8 +115,8 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Screenshot_2025_02_22_141855;
-            pictureBox1.Location = new Point(45, 34);
+            pictureBox1.Image = Properties.Resources.Shopping_Cart;
+            pictureBox1.Location = new Point(48, 34);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(66, 47);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;

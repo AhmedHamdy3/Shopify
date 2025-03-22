@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminHomeForm));
             btn_products = new Button();
             btn_users = new Button();
             btn_category = new Button();
@@ -89,7 +88,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources._3918950;
             pictureBox2.Location = new Point(47, 72);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(508, 504);

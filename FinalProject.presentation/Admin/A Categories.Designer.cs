@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminManageCategories));
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             header = new Panel();
-            pb_logout = new PictureBox();
+            cbtn_logout = new CustomControls.CustomButton();
             btn_userManagment = new Button();
             lbl_shopify = new Label();
             pB_logo = new PictureBox();
@@ -43,13 +42,11 @@
             lbl_enterCategoryData = new Label();
             panel1 = new Panel();
             txt_category = new TextBox();
-            pb_updatedSuccessfully1 = new PictureBox();
             btn_delete = new Button();
             btn_update = new Button();
             btn_insert = new Button();
             lbl_categoryName = new Label();
             dgv_categories = new DataGridView();
-            pb_updatedSuccessfully = new PictureBox();
             pnl_addnewcategory = new Panel();
             pnl_deletecategory = new Panel();
             pnl_updatecat = new Panel();
@@ -57,27 +54,23 @@
             tm1_update = new System.Windows.Forms.Timer(components);
             tm_addedSuccessfully = new System.Windows.Forms.Timer(components);
             tm_deletedSuccessfully = new System.Windows.Forms.Timer(components);
-            pb_addedSuccessfully = new PictureBox();
-            pb_deletedSuccessfully = new PictureBox();
+            btn_deletedSuccessfully = new Button();
+            btn_addedSuccessfully = new Button();
+            btn_updatedSuccessfully = new Button();
             header.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_logout).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pB_logo).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_updatedSuccessfully1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgv_categories).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pb_updatedSuccessfully).BeginInit();
             pnl_addnewcategory.SuspendLayout();
             pnl_deletecategory.SuspendLayout();
             pnl_updatecat.SuspendLayout();
             pnl_createcategory.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_addedSuccessfully).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pb_deletedSuccessfully).BeginInit();
             SuspendLayout();
             // 
             // header
             // 
             header.BackColor = Color.FromArgb(0, 124, 127);
-            header.Controls.Add(pb_logout);
+            header.Controls.Add(cbtn_logout);
             header.Controls.Add(btn_userManagment);
             header.Controls.Add(lbl_shopify);
             header.Controls.Add(pB_logo);
@@ -88,17 +81,29 @@
             header.Size = new Size(1004, 82);
             header.TabIndex = 39;
             // 
-            // pb_logout
+            // cbtn_logout
             // 
-            pb_logout.Cursor = Cursors.Hand;
-            pb_logout.Image = (Image)resources.GetObject("pb_logout.Image");
-            pb_logout.Location = new Point(877, 12);
-            pb_logout.Name = "pb_logout";
-            pb_logout.Size = new Size(88, 60);
-            pb_logout.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_logout.TabIndex = 90;
-            pb_logout.TabStop = false;
-            pb_logout.Click += pictureBox1_Click;
+            cbtn_logout.BackColor = Color.FromArgb(0, 124, 127);
+            cbtn_logout.BorderColor = Color.Black;
+            cbtn_logout.BorderRadius = 0;
+            cbtn_logout.BorderSize = 0;
+            cbtn_logout.Cursor = Cursors.Hand;
+            cbtn_logout.FlatAppearance.BorderSize = 0;
+            cbtn_logout.FlatAppearance.MouseDownBackColor = Color.FromArgb(0, 124, 127);
+            cbtn_logout.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 124, 127);
+            cbtn_logout.FlatStyle = FlatStyle.Flat;
+            cbtn_logout.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_logout.ForeColor = Color.White;
+            cbtn_logout.Image = Properties.Resources.Logout1;
+            cbtn_logout.ImageAlign = ContentAlignment.TopCenter;
+            cbtn_logout.Location = new Point(877, 6);
+            cbtn_logout.Name = "cbtn_logout";
+            cbtn_logout.Size = new Size(88, 71);
+            cbtn_logout.TabIndex = 90;
+            cbtn_logout.Text = "Logout";
+            cbtn_logout.TextAlign = ContentAlignment.BottomCenter;
+            cbtn_logout.UseVisualStyleBackColor = false;
+            cbtn_logout.Click += cbtn_logout_Click;
             // 
             // btn_userManagment
             // 
@@ -125,7 +130,7 @@
             lbl_shopify.Cursor = Cursors.Hand;
             lbl_shopify.Font = new Font("Segoe UI", 17F, FontStyle.Bold);
             lbl_shopify.ForeColor = Color.White;
-            lbl_shopify.Location = new Point(91, 23);
+            lbl_shopify.Location = new Point(95, 23);
             lbl_shopify.Name = "lbl_shopify";
             lbl_shopify.Size = new Size(178, 40);
             lbl_shopify.TabIndex = 40;
@@ -134,9 +139,9 @@
             // 
             // pB_logo
             // 
-            pB_logo.BackColor = Color.FromArgb(0, 123, 255);
+            pB_logo.BackColor = Color.Transparent;
             pB_logo.Cursor = Cursors.Hand;
-            pB_logo.Image = (Image)resources.GetObject("pB_logo.Image");
+            pB_logo.Image = Properties.Resources.Shopping_Cart_white;
             pB_logo.Location = new Point(28, 14);
             pB_logo.Name = "pB_logo";
             pB_logo.Size = new Size(72, 58);
@@ -233,18 +238,6 @@
             txt_category.Size = new Size(241, 20);
             txt_category.TabIndex = 11;
             // 
-            // pb_updatedSuccessfully1
-            // 
-            pb_updatedSuccessfully1.AccessibleRole = AccessibleRole.Alert;
-            pb_updatedSuccessfully1.Image = Properties.Resources.Screenshot_2025_02_22_160722;
-            pb_updatedSuccessfully1.Location = new Point(712, 152);
-            pb_updatedSuccessfully1.Name = "pb_updatedSuccessfully1";
-            pb_updatedSuccessfully1.Size = new Size(270, 53);
-            pb_updatedSuccessfully1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_updatedSuccessfully1.TabIndex = 87;
-            pb_updatedSuccessfully1.TabStop = false;
-            pb_updatedSuccessfully1.Visible = false;
-            // 
             // btn_delete
             // 
             btn_delete.BackColor = SystemColors.Control;
@@ -332,17 +325,6 @@
             dgv_categories.TabIndex = 70;
             dgv_categories.RowHeaderMouseDoubleClick += dgv_categories_RowHeaderMouseDoubleClick_1;
             // 
-            // pb_updatedSuccessfully
-            // 
-            pb_updatedSuccessfully.Image = (Image)resources.GetObject("pb_updatedSuccessfully.Image");
-            pb_updatedSuccessfully.Location = new Point(166, 568);
-            pb_updatedSuccessfully.Name = "pb_updatedSuccessfully";
-            pb_updatedSuccessfully.Size = new Size(361, 62);
-            pb_updatedSuccessfully.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_updatedSuccessfully.TabIndex = 86;
-            pb_updatedSuccessfully.TabStop = false;
-            pb_updatedSuccessfully.Visible = false;
-            // 
             // pnl_addnewcategory
             // 
             pnl_addnewcategory.BackColor = Color.FromArgb(0, 124, 127);
@@ -396,34 +378,59 @@
             // 
             tm_deletedSuccessfully.Tick += tm_deletedSuccessfully_Tick;
             // 
-            // pb_addedSuccessfully
+            // btn_deletedSuccessfully
             // 
-            pb_addedSuccessfully.Image = Properties.Resources.Screenshot_2025_02_22_162429;
-            pb_addedSuccessfully.Location = new Point(712, 152);
-            pb_addedSuccessfully.Name = "pb_addedSuccessfully";
-            pb_addedSuccessfully.Size = new Size(270, 53);
-            pb_addedSuccessfully.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_addedSuccessfully.TabIndex = 88;
-            pb_addedSuccessfully.TabStop = false;
-            pb_addedSuccessfully.Visible = false;
+            btn_deletedSuccessfully.BackColor = Color.FromArgb(248, 215, 218);
+            btn_deletedSuccessfully.FlatAppearance.BorderColor = Color.FromArgb(245, 198, 203);
+            btn_deletedSuccessfully.FlatAppearance.MouseDownBackColor = Color.FromArgb(248, 215, 218);
+            btn_deletedSuccessfully.FlatAppearance.MouseOverBackColor = Color.FromArgb(248, 215, 218);
+            btn_deletedSuccessfully.FlatStyle = FlatStyle.Flat;
+            btn_deletedSuccessfully.ForeColor = Color.FromArgb(114, 28, 36);
+            btn_deletedSuccessfully.Location = new Point(712, 152);
+            btn_deletedSuccessfully.Name = "btn_deletedSuccessfully";
+            btn_deletedSuccessfully.Size = new Size(270, 53);
+            btn_deletedSuccessfully.TabIndex = 93;
+            btn_deletedSuccessfully.Text = "Category Deleted Successfully";
+            btn_deletedSuccessfully.UseVisualStyleBackColor = false;
+            btn_deletedSuccessfully.Visible = false;
             // 
-            // pb_deletedSuccessfully
+            // btn_addedSuccessfully
             // 
-            pb_deletedSuccessfully.Image = Properties.Resources.Screenshot_2025_02_22_162900;
-            pb_deletedSuccessfully.Location = new Point(712, 152);
-            pb_deletedSuccessfully.Name = "pb_deletedSuccessfully";
-            pb_deletedSuccessfully.Size = new Size(270, 53);
-            pb_deletedSuccessfully.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_deletedSuccessfully.TabIndex = 89;
-            pb_deletedSuccessfully.TabStop = false;
-            pb_deletedSuccessfully.Visible = false;
+            btn_addedSuccessfully.BackColor = Color.FromArgb(212, 237, 218);
+            btn_addedSuccessfully.FlatAppearance.BorderColor = Color.FromArgb(195, 230, 203);
+            btn_addedSuccessfully.FlatAppearance.MouseDownBackColor = Color.FromArgb(212, 237, 218);
+            btn_addedSuccessfully.FlatAppearance.MouseOverBackColor = Color.FromArgb(212, 237, 218);
+            btn_addedSuccessfully.FlatStyle = FlatStyle.Flat;
+            btn_addedSuccessfully.ForeColor = Color.FromArgb(21, 87, 36);
+            btn_addedSuccessfully.Location = new Point(712, 152);
+            btn_addedSuccessfully.Name = "btn_addedSuccessfully";
+            btn_addedSuccessfully.Size = new Size(270, 53);
+            btn_addedSuccessfully.TabIndex = 94;
+            btn_addedSuccessfully.Text = "Category Added Successfully";
+            btn_addedSuccessfully.UseVisualStyleBackColor = false;
+            btn_addedSuccessfully.Visible = false;
+            // 
+            // btn_updatedSuccessfully
+            // 
+            btn_updatedSuccessfully.BackColor = Color.FromArgb(212, 237, 218);
+            btn_updatedSuccessfully.FlatAppearance.BorderColor = Color.FromArgb(195, 230, 203);
+            btn_updatedSuccessfully.FlatAppearance.MouseDownBackColor = Color.FromArgb(212, 237, 218);
+            btn_updatedSuccessfully.FlatAppearance.MouseOverBackColor = Color.FromArgb(212, 237, 218);
+            btn_updatedSuccessfully.FlatStyle = FlatStyle.Flat;
+            btn_updatedSuccessfully.ForeColor = Color.FromArgb(21, 87, 36);
+            btn_updatedSuccessfully.Location = new Point(712, 152);
+            btn_updatedSuccessfully.Name = "btn_updatedSuccessfully";
+            btn_updatedSuccessfully.Size = new Size(270, 53);
+            btn_updatedSuccessfully.TabIndex = 95;
+            btn_updatedSuccessfully.Text = "Category Updated Successfully";
+            btn_updatedSuccessfully.UseVisualStyleBackColor = false;
+            btn_updatedSuccessfully.Visible = false;
             // 
             // adminManageCategories
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1004, 663);
-            Controls.Add(pb_updatedSuccessfully);
             Controls.Add(pnl_updatecat);
             Controls.Add(panel1);
             Controls.Add(lbl_categoryName);
@@ -432,30 +439,25 @@
             Controls.Add(pnl_addnewcategory);
             Controls.Add(pnl_createcategory);
             Controls.Add(dgv_categories);
-            Controls.Add(pb_deletedSuccessfully);
-            Controls.Add(pb_addedSuccessfully);
-            Controls.Add(pb_updatedSuccessfully1);
             Controls.Add(lbl_enterCategoryData);
             Controls.Add(pnl_deletecategory);
+            Controls.Add(btn_updatedSuccessfully);
+            Controls.Add(btn_addedSuccessfully);
+            Controls.Add(btn_deletedSuccessfully);
             Location = new Point(1, 1);
             Name = "adminManageCategories";
             Text = "Categories";
             Load += adminManageCategories_Load;
             header.ResumeLayout(false);
             header.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_logout).EndInit();
             ((System.ComponentModel.ISupportInitialize)pB_logo).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_updatedSuccessfully1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgv_categories).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pb_updatedSuccessfully).EndInit();
             pnl_addnewcategory.ResumeLayout(false);
             pnl_deletecategory.ResumeLayout(false);
             pnl_updatecat.ResumeLayout(false);
             pnl_createcategory.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pb_addedSuccessfully).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pb_deletedSuccessfully).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -484,12 +486,11 @@
         private Panel pnl_updatecat;
         private Panel pnl_createcategory;
         private System.Windows.Forms.Timer tm1_update;
-        private PictureBox pb_updatedSuccessfully;
-        private PictureBox pb_updatedSuccessfully1;
         private System.Windows.Forms.Timer tm_addedSuccessfully;
         private System.Windows.Forms.Timer tm_deletedSuccessfully;
-        private PictureBox pb_addedSuccessfully;
-        private PictureBox pb_deletedSuccessfully;
-        private PictureBox pb_logout;
+        private CustomControls.CustomButton cbtn_logout;
+        private Button btn_deletedSuccessfully;
+        private Button btn_addedSuccessfully;
+        private Button btn_updatedSuccessfully;
     }
 }

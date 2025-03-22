@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj": {}
+    "D:\\ITI\\16. ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj": {
+    "D:\\ITI\\16. ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj",
+        "projectUniqueName": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj",
         "projectName": "Shopify.BussinessLogic",
-        "projectPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj",
+        "projectPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj",
         "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.BussinessLogic\\obj\\",
+        "outputPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.BussinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI\\ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj": {
-                "projectPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj"
+              "D:\\ITI\\16. ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj": {
+                "projectPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\ITI\\ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj": {
+    "D:\\ITI\\16. ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj",
+        "projectUniqueName": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj",
         "projectName": "Shopify.DataAccess",
-        "projectPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj",
+        "projectPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.DataAccess\\Shopify.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.DataAccess\\obj\\",
+        "outputPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "D:\\ITI\\ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj": {
+    "D:\\ITI\\16. ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj",
+        "projectUniqueName": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj",
         "projectName": "Shopify.presentation",
-        "projectPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj",
+        "projectPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.presentation\\Shopify.presentation.csproj",
         "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.presentation\\obj\\",
+        "outputPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,8 +172,8 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "D:\\ITI\\ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj": {
-                "projectPath": "D:\\ITI\\ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj"
+              "D:\\ITI\\16. ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj": {
+                "projectPath": "D:\\ITI\\16. ADO\\Shopify\\FinalProject.BussinessLogic\\Shopify.BussinessLogic.csproj"
               }
             }
           }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeForm));
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             btn_addToFavourite = new Button();
             pb_profileImage = new PictureBox();
@@ -72,10 +71,10 @@
             // pb_profileImage
             // 
             pb_profileImage.Cursor = Cursors.Hand;
-            pb_profileImage.Image = (Image)resources.GetObject("pb_profileImage.Image");
-            pb_profileImage.Location = new Point(879, 14);
+            pb_profileImage.Image = Properties.Resources.User_white;
+            pb_profileImage.Location = new Point(900, 14);
             pb_profileImage.Name = "pb_profileImage";
-            pb_profileImage.Size = new Size(97, 58);
+            pb_profileImage.Size = new Size(69, 58);
             pb_profileImage.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_profileImage.TabIndex = 68;
             pb_profileImage.TabStop = false;
@@ -198,7 +197,7 @@
             lbl_shopify.BackColor = Color.Transparent;
             lbl_shopify.Font = new Font("Segoe UI", 17F, FontStyle.Bold);
             lbl_shopify.ForeColor = Color.White;
-            lbl_shopify.Location = new Point(91, 23);
+            lbl_shopify.Location = new Point(95, 23);
             lbl_shopify.Name = "lbl_shopify";
             lbl_shopify.Size = new Size(122, 40);
             lbl_shopify.TabIndex = 40;
@@ -206,8 +205,8 @@
             // 
             // pB_logo
             // 
-            pB_logo.BackColor = Color.FromArgb(0, 123, 255);
-            pB_logo.Image = (Image)resources.GetObject("pB_logo.Image");
+            pB_logo.BackColor = Color.Transparent;
+            pB_logo.Image = Properties.Resources.Shopping_Cart_white;
             pB_logo.Location = new Point(28, 14);
             pB_logo.Name = "pB_logo";
             pB_logo.Size = new Size(72, 58);

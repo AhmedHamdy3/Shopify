@@ -82,7 +82,7 @@ namespace Shopify.presentation
                     tm_addedSuccessfully.Interval = 1500;
                     tm_addedSuccessfully.Tick += new System.EventHandler(this.tm_addedSuccessfully_Tick);
                     tm_addedSuccessfully.Start();
-                    pb_addedSuccessfully.Visible = true;
+                    btn_addedSuccessfully.Visible = true;
 
                     txt_username.Text = txt_password.Text = txt_email.Text = txt_address.Text = "";
                     nud_age.Value = 0;
@@ -137,7 +137,7 @@ namespace Shopify.presentation
 
                     tm1_update.Interval = 1500;
                     tm1_update.Tick += new System.EventHandler(this.tm1_update_Tick);
-                    pb_updatedSuccessfully1.Visible = true;
+                    btn_updatedSuccessfully.Visible = true;
                     tm1_update.Start();
 
                     txt_username.Text = txt_password.Text = txt_email.Text = txt_address.Text = "";
@@ -174,7 +174,7 @@ namespace Shopify.presentation
                         tm_deletedSuccessfully.Interval = 1500;
                         tm_deletedSuccessfully.Tick += new System.EventHandler(this.tm_deletedSuccessfully_Tick);
                         tm_deletedSuccessfully.Start();
-                        pb_deletedSuccessfully.Visible = true;
+                        btn_deletedSuccessfully.Visible = true;
 
                         txt_username.Text = txt_password.Text = txt_email.Text = txt_address.Text = "";
                         nud_age.Value = 0;
@@ -272,28 +272,23 @@ namespace Shopify.presentation
 
         private void tm1_update_Tick(object sender, EventArgs e)
         {
-
             tm1_update.Stop();
-            pb_updatedSuccessfully1.Visible = false;
-
+            btn_updatedSuccessfully.Visible = false;
         }
 
         private void tm_addedSuccessfully_Tick(object sender, EventArgs e)
         {
             tm_addedSuccessfully.Stop();
-            pb_addedSuccessfully.Visible = false;
-
-
+            btn_addedSuccessfully.Visible = false;
         }
 
         private void tm_deletedSuccessfully_Tick(object sender, EventArgs e)
         {
-
             tm_deletedSuccessfully.Stop();
-            pb_deletedSuccessfully.Visible = false;
+            btn_deletedSuccessfully.Visible = false;
         }
 
-        private void pb_logout_Click(object sender, EventArgs e)
+        private void cbtn_logout_Click(object sender, EventArgs e)
         {
             GlobalData.user_id = -1;
             GlobalData.startForm.StartPosition = FormStartPosition.Manual;

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profileForm));
             lbl_username = new Label();
             lbl_email = new Label();
             lbl_age = new Label();
@@ -37,10 +36,10 @@
             txt_email = new TextBox();
             nud_age = new NumericUpDown();
             txt_address = new TextBox();
-            pb_editProfile = new PictureBox();
-            pb_changepassword = new PictureBox();
             pnl_userInfo = new Panel();
+            cbtn_changePassword = new CustomControls.CustomButton();
             lbl_addressdata = new Label();
+            cbtn_editProfile = new CustomControls.CustomButton();
             label14 = new Label();
             lbl_usernamedata = new Label();
             lbl_emaildata = new Label();
@@ -50,8 +49,8 @@
             label15 = new Label();
             pictureBox1 = new PictureBox();
             pnl_updateInfo = new Panel();
-            pb_cancel = new PictureBox();
-            pb_name = new PictureBox();
+            pb_cancelProfile = new CustomControls.CustomButton();
+            cbtn_saveProfile = new CustomControls.CustomButton();
             panel7 = new Panel();
             panel8 = new Panel();
             panel5 = new Panel();
@@ -60,16 +59,15 @@
             panel4 = new Panel();
             panel9 = new Panel();
             panel10 = new Panel();
-            pictureBox2 = new PictureBox();
             pnl_changePassword = new Panel();
-            pb_cancelPassword = new PictureBox();
             panel17 = new Panel();
             panel18 = new Panel();
             txt_confirmPassword = new TextBox();
+            cbtn_savePassword = new CustomControls.CustomButton();
+            cbtn_cancelPassword = new CustomControls.CustomButton();
             panel15 = new Panel();
             panel16 = new Panel();
             txt_newPassword = new TextBox();
-            pb_savePassword = new PictureBox();
             label4 = new Label();
             panel11 = new Panel();
             panel12 = new Panel();
@@ -81,17 +79,14 @@
             btn_logOut = new Button();
             btn_favourites = new Button();
             panel2 = new Panel();
-            lbl_shopify = new Label();
             pB_logo = new PictureBox();
+            lbl_shopify = new Label();
             pb_profileImage = new PictureBox();
+            customButton1 = new CustomControls.CustomButton();
             ((System.ComponentModel.ISupportInitialize)nud_age).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pb_editProfile).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pb_changepassword).BeginInit();
             pnl_userInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pnl_updateInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_cancel).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pb_name).BeginInit();
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             panel5.SuspendLayout();
@@ -100,14 +95,11 @@
             panel4.SuspendLayout();
             panel9.SuspendLayout();
             panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pnl_changePassword.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_cancelPassword).BeginInit();
             panel17.SuspendLayout();
             panel18.SuspendLayout();
             panel15.SuspendLayout();
             panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_savePassword).BeginInit();
             panel11.SuspendLayout();
             panel12.SuspendLayout();
             panel2.SuspendLayout();
@@ -187,37 +179,13 @@
             txt_address.Size = new Size(300, 20);
             txt_address.TabIndex = 7;
             // 
-            // pb_editProfile
-            // 
-            pb_editProfile.Cursor = Cursors.Hand;
-            pb_editProfile.Image = Properties.Resources.Screenshot_2025_02_21_2108091;
-            pb_editProfile.Location = new Point(3, 374);
-            pb_editProfile.Name = "pb_editProfile";
-            pb_editProfile.Size = new Size(220, 62);
-            pb_editProfile.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_editProfile.TabIndex = 17;
-            pb_editProfile.TabStop = false;
-            pb_editProfile.Click += pb_editProfile_Click;
-            // 
-            // pb_changepassword
-            // 
-            pb_changepassword.Cursor = Cursors.Hand;
-            pb_changepassword.Image = (Image)resources.GetObject("pb_changepassword.Image");
-            pb_changepassword.Location = new Point(200, 383);
-            pb_changepassword.Name = "pb_changepassword";
-            pb_changepassword.Size = new Size(211, 49);
-            pb_changepassword.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_changepassword.TabIndex = 18;
-            pb_changepassword.TabStop = false;
-            pb_changepassword.Click += pb_changepassword_Click;
-            // 
             // pnl_userInfo
             // 
+            pnl_userInfo.Controls.Add(cbtn_changePassword);
             pnl_userInfo.Controls.Add(lbl_addressdata);
+            pnl_userInfo.Controls.Add(cbtn_editProfile);
             pnl_userInfo.Controls.Add(label14);
             pnl_userInfo.Controls.Add(lbl_usernamedata);
-            pnl_userInfo.Controls.Add(pb_changepassword);
-            pnl_userInfo.Controls.Add(pb_editProfile);
             pnl_userInfo.Controls.Add(lbl_emaildata);
             pnl_userInfo.Controls.Add(lbl_agedata);
             pnl_userInfo.Controls.Add(label1);
@@ -227,6 +195,25 @@
             pnl_userInfo.Name = "pnl_userInfo";
             pnl_userInfo.Size = new Size(463, 435);
             pnl_userInfo.TabIndex = 12;
+            // 
+            // cbtn_changePassword
+            // 
+            cbtn_changePassword.BackColor = Color.White;
+            cbtn_changePassword.BorderColor = Color.FromArgb(0, 124, 127);
+            cbtn_changePassword.BorderRadius = 8;
+            cbtn_changePassword.BorderSize = 1;
+            cbtn_changePassword.Cursor = Cursors.Hand;
+            cbtn_changePassword.FlatAppearance.BorderSize = 0;
+            cbtn_changePassword.FlatStyle = FlatStyle.Flat;
+            cbtn_changePassword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_changePassword.ForeColor = Color.FromArgb(0, 124, 127);
+            cbtn_changePassword.Location = new Point(204, 383);
+            cbtn_changePassword.Name = "cbtn_changePassword";
+            cbtn_changePassword.Size = new Size(203, 45);
+            cbtn_changePassword.TabIndex = 87;
+            cbtn_changePassword.Text = "Change Password";
+            cbtn_changePassword.UseVisualStyleBackColor = false;
+            cbtn_changePassword.Click += cbtn_changePassword_Click;
             // 
             // lbl_addressdata
             // 
@@ -239,6 +226,25 @@
             lbl_addressdata.Size = new Size(63, 25);
             lbl_addressdata.TabIndex = 22;
             lbl_addressdata.Text = "label5";
+            // 
+            // cbtn_editProfile
+            // 
+            cbtn_editProfile.BackColor = Color.White;
+            cbtn_editProfile.BorderColor = Color.FromArgb(0, 124, 127);
+            cbtn_editProfile.BorderRadius = 8;
+            cbtn_editProfile.BorderSize = 1;
+            cbtn_editProfile.Cursor = Cursors.Hand;
+            cbtn_editProfile.FlatAppearance.BorderSize = 0;
+            cbtn_editProfile.FlatStyle = FlatStyle.Flat;
+            cbtn_editProfile.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_editProfile.ForeColor = Color.FromArgb(0, 124, 127);
+            cbtn_editProfile.Location = new Point(23, 383);
+            cbtn_editProfile.Name = "cbtn_editProfile";
+            cbtn_editProfile.Size = new Size(172, 45);
+            cbtn_editProfile.TabIndex = 86;
+            cbtn_editProfile.Text = "Edit Profile";
+            cbtn_editProfile.UseVisualStyleBackColor = false;
+            cbtn_editProfile.Click += cbtn_editProfile_Click;
             // 
             // label14
             // 
@@ -333,8 +339,8 @@
             // 
             // pnl_updateInfo
             // 
-            pnl_updateInfo.Controls.Add(pb_cancel);
-            pnl_updateInfo.Controls.Add(pb_name);
+            pnl_updateInfo.Controls.Add(pb_cancelProfile);
+            pnl_updateInfo.Controls.Add(cbtn_saveProfile);
             pnl_updateInfo.Controls.Add(panel7);
             pnl_updateInfo.Controls.Add(panel5);
             pnl_updateInfo.Controls.Add(panel3);
@@ -348,29 +354,43 @@
             pnl_updateInfo.Size = new Size(463, 435);
             pnl_updateInfo.TabIndex = 19;
             // 
-            // pb_cancel
+            // pb_cancelProfile
             // 
-            pb_cancel.Cursor = Cursors.Hand;
-            pb_cancel.Image = Properties.Resources.Screenshot_2025_02_21_220129;
-            pb_cancel.Location = new Point(187, 380);
-            pb_cancel.Name = "pb_cancel";
-            pb_cancel.Size = new Size(149, 45);
-            pb_cancel.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_cancel.TabIndex = 20;
-            pb_cancel.TabStop = false;
-            pb_cancel.Click += pb_cancel_Click;
+            pb_cancelProfile.BackColor = Color.White;
+            pb_cancelProfile.BorderColor = Color.FromArgb(0, 124, 127);
+            pb_cancelProfile.BorderRadius = 8;
+            pb_cancelProfile.BorderSize = 1;
+            pb_cancelProfile.Cursor = Cursors.Hand;
+            pb_cancelProfile.FlatAppearance.BorderSize = 0;
+            pb_cancelProfile.FlatStyle = FlatStyle.Flat;
+            pb_cancelProfile.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            pb_cancelProfile.ForeColor = Color.FromArgb(0, 124, 127);
+            pb_cancelProfile.Location = new Point(189, 380);
+            pb_cancelProfile.Name = "pb_cancelProfile";
+            pb_cancelProfile.Size = new Size(139, 45);
+            pb_cancelProfile.TabIndex = 87;
+            pb_cancelProfile.Text = "Cancel";
+            pb_cancelProfile.UseVisualStyleBackColor = false;
+            pb_cancelProfile.Click += pb_cancelProfile_Click;
             // 
-            // pb_name
+            // cbtn_saveProfile
             // 
-            pb_name.Cursor = Cursors.Hand;
-            pb_name.Image = Properties.Resources.Screenshot_2025_02_21_220354;
-            pb_name.Location = new Point(31, 380);
-            pb_name.Name = "pb_name";
-            pb_name.Size = new Size(167, 45);
-            pb_name.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_name.TabIndex = 21;
-            pb_name.TabStop = false;
-            pb_name.Click += pb_name_Click;
+            cbtn_saveProfile.BackColor = Color.FromArgb(0, 124, 127);
+            cbtn_saveProfile.BorderColor = Color.Black;
+            cbtn_saveProfile.BorderRadius = 8;
+            cbtn_saveProfile.BorderSize = 0;
+            cbtn_saveProfile.Cursor = Cursors.Hand;
+            cbtn_saveProfile.FlatAppearance.BorderSize = 0;
+            cbtn_saveProfile.FlatStyle = FlatStyle.Flat;
+            cbtn_saveProfile.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_saveProfile.ForeColor = Color.White;
+            cbtn_saveProfile.Location = new Point(44, 380);
+            cbtn_saveProfile.Name = "cbtn_saveProfile";
+            cbtn_saveProfile.Size = new Size(139, 45);
+            cbtn_saveProfile.TabIndex = 86;
+            cbtn_saveProfile.Text = "Save";
+            cbtn_saveProfile.UseVisualStyleBackColor = false;
+            cbtn_saveProfile.Click += cbtn_saveProfile_Click;
             // 
             // panel7
             // 
@@ -444,23 +464,12 @@
             panel10.Size = new Size(320, 43);
             panel10.TabIndex = 11;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Cursor = Cursors.Hand;
-            pictureBox2.Image = Properties.Resources.Screenshot_2025_02_21_221735;
-            pictureBox2.Location = new Point(141, 502);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(227, 56);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 20;
-            pictureBox2.TabStop = false;
-            // 
             // pnl_changePassword
             // 
-            pnl_changePassword.Controls.Add(pb_cancelPassword);
             pnl_changePassword.Controls.Add(panel17);
+            pnl_changePassword.Controls.Add(cbtn_savePassword);
+            pnl_changePassword.Controls.Add(cbtn_cancelPassword);
             pnl_changePassword.Controls.Add(panel15);
-            pnl_changePassword.Controls.Add(pb_savePassword);
             pnl_changePassword.Controls.Add(label4);
             pnl_changePassword.Controls.Add(panel11);
             pnl_changePassword.Controls.Add(label2);
@@ -469,18 +478,6 @@
             pnl_changePassword.Name = "pnl_changePassword";
             pnl_changePassword.Size = new Size(463, 435);
             pnl_changePassword.TabIndex = 21;
-            // 
-            // pb_cancelPassword
-            // 
-            pb_cancelPassword.Cursor = Cursors.Hand;
-            pb_cancelPassword.Image = Properties.Resources.Screenshot_2025_02_21_220129;
-            pb_cancelPassword.Location = new Point(187, 380);
-            pb_cancelPassword.Name = "pb_cancelPassword";
-            pb_cancelPassword.Size = new Size(149, 45);
-            pb_cancelPassword.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_cancelPassword.TabIndex = 24;
-            pb_cancelPassword.TabStop = false;
-            pb_cancelPassword.Click += pb_cancelPassword_Click;
             // 
             // panel17
             // 
@@ -509,6 +506,44 @@
             txt_confirmPassword.Size = new Size(376, 20);
             txt_confirmPassword.TabIndex = 6;
             // 
+            // cbtn_savePassword
+            // 
+            cbtn_savePassword.BackColor = Color.FromArgb(0, 124, 127);
+            cbtn_savePassword.BorderColor = Color.Black;
+            cbtn_savePassword.BorderRadius = 8;
+            cbtn_savePassword.BorderSize = 0;
+            cbtn_savePassword.Cursor = Cursors.Hand;
+            cbtn_savePassword.FlatAppearance.BorderSize = 0;
+            cbtn_savePassword.FlatStyle = FlatStyle.Flat;
+            cbtn_savePassword.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_savePassword.ForeColor = Color.White;
+            cbtn_savePassword.Location = new Point(44, 380);
+            cbtn_savePassword.Name = "cbtn_savePassword";
+            cbtn_savePassword.Size = new Size(139, 45);
+            cbtn_savePassword.TabIndex = 84;
+            cbtn_savePassword.Text = "Save";
+            cbtn_savePassword.UseVisualStyleBackColor = false;
+            cbtn_savePassword.Click += cbtn_savePassword_Click;
+            // 
+            // cbtn_cancelPassword
+            // 
+            cbtn_cancelPassword.BackColor = Color.White;
+            cbtn_cancelPassword.BorderColor = Color.FromArgb(0, 124, 127);
+            cbtn_cancelPassword.BorderRadius = 8;
+            cbtn_cancelPassword.BorderSize = 1;
+            cbtn_cancelPassword.Cursor = Cursors.Hand;
+            cbtn_cancelPassword.FlatAppearance.BorderSize = 0;
+            cbtn_cancelPassword.FlatStyle = FlatStyle.Flat;
+            cbtn_cancelPassword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cbtn_cancelPassword.ForeColor = Color.FromArgb(0, 124, 127);
+            cbtn_cancelPassword.Location = new Point(189, 380);
+            cbtn_cancelPassword.Name = "cbtn_cancelPassword";
+            cbtn_cancelPassword.Size = new Size(139, 45);
+            cbtn_cancelPassword.TabIndex = 85;
+            cbtn_cancelPassword.Text = "Cancel";
+            cbtn_cancelPassword.UseVisualStyleBackColor = false;
+            cbtn_cancelPassword.Click += cbtn_cancelPassword_Click;
+            // 
             // panel15
             // 
             panel15.BackColor = Color.FromArgb(230, 230, 230);
@@ -535,18 +570,6 @@
             txt_newPassword.PasswordChar = '*';
             txt_newPassword.Size = new Size(376, 20);
             txt_newPassword.TabIndex = 5;
-            // 
-            // pb_savePassword
-            // 
-            pb_savePassword.Cursor = Cursors.Hand;
-            pb_savePassword.Image = Properties.Resources.Screenshot_2025_02_21_220354;
-            pb_savePassword.Location = new Point(31, 380);
-            pb_savePassword.Name = "pb_savePassword";
-            pb_savePassword.Size = new Size(167, 45);
-            pb_savePassword.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_savePassword.TabIndex = 25;
-            pb_savePassword.TabStop = false;
-            pb_savePassword.Click += pb_savePassword_Click;
             // 
             // label4
             // 
@@ -665,33 +688,19 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(0, 124, 127);
-            panel2.Controls.Add(lbl_shopify);
             panel2.Controls.Add(pB_logo);
+            panel2.Controls.Add(lbl_shopify);
             panel2.Controls.Add(pb_profileImage);
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(1004, 82);
             panel2.TabIndex = 82;
             // 
-            // lbl_shopify
-            // 
-            lbl_shopify.AutoSize = true;
-            lbl_shopify.BackColor = Color.Transparent;
-            lbl_shopify.Cursor = Cursors.Hand;
-            lbl_shopify.Font = new Font("Segoe UI", 17F, FontStyle.Bold);
-            lbl_shopify.ForeColor = Color.White;
-            lbl_shopify.Location = new Point(91, 23);
-            lbl_shopify.Name = "lbl_shopify";
-            lbl_shopify.Size = new Size(122, 40);
-            lbl_shopify.TabIndex = 40;
-            lbl_shopify.Text = "Shopify";
-            lbl_shopify.Click += lbl_shopify_Click;
-            // 
             // pB_logo
             // 
-            pB_logo.BackColor = Color.FromArgb(0, 123, 255);
+            pB_logo.BackColor = Color.Transparent;
             pB_logo.Cursor = Cursors.Hand;
-            pB_logo.Image = (Image)resources.GetObject("pB_logo.Image");
+            pB_logo.Image = Properties.Resources.Shopping_Cart_white;
             pB_logo.Location = new Point(28, 14);
             pB_logo.Name = "pB_logo";
             pB_logo.Size = new Size(72, 58);
@@ -700,17 +709,52 @@
             pB_logo.TabStop = false;
             pB_logo.Click += pB_logo_Click;
             // 
+            // lbl_shopify
+            // 
+            lbl_shopify.AutoSize = true;
+            lbl_shopify.BackColor = Color.Transparent;
+            lbl_shopify.Cursor = Cursors.Hand;
+            lbl_shopify.Font = new Font("Segoe UI", 17F, FontStyle.Bold);
+            lbl_shopify.ForeColor = Color.White;
+            lbl_shopify.Location = new Point(95, 23);
+            lbl_shopify.Name = "lbl_shopify";
+            lbl_shopify.Size = new Size(122, 40);
+            lbl_shopify.TabIndex = 40;
+            lbl_shopify.Text = "Shopify";
+            lbl_shopify.Click += lbl_shopify_Click;
+            // 
             // pb_profileImage
             // 
             pb_profileImage.Cursor = Cursors.Hand;
-            pb_profileImage.Image = (Image)resources.GetObject("pb_profileImage.Image");
-            pb_profileImage.Location = new Point(879, 14);
+            pb_profileImage.Image = Properties.Resources.User_white;
+            pb_profileImage.Location = new Point(900, 14);
             pb_profileImage.Name = "pb_profileImage";
-            pb_profileImage.Size = new Size(97, 58);
+            pb_profileImage.Size = new Size(69, 58);
             pb_profileImage.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_profileImage.TabIndex = 68;
             pb_profileImage.TabStop = false;
             pb_profileImage.Click += pb_profileImage_Click;
+            // 
+            // customButton1
+            // 
+            customButton1.BackColor = Color.White;
+            customButton1.BorderColor = Color.FromArgb(0, 124, 127);
+            customButton1.BorderRadius = 8;
+            customButton1.BorderSize = 1;
+            customButton1.Cursor = Cursors.Hand;
+            customButton1.FlatAppearance.BorderSize = 0;
+            customButton1.FlatStyle = FlatStyle.Flat;
+            customButton1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            customButton1.ForeColor = Color.FromArgb(0, 124, 127);
+            customButton1.Image = Properties.Resources.Camera;
+            customButton1.ImageAlign = ContentAlignment.MiddleLeft;
+            customButton1.Location = new Point(141, 508);
+            customButton1.Name = "customButton1";
+            customButton1.Padding = new Padding(27, 0, 0, 0);
+            customButton1.Size = new Size(227, 45);
+            customButton1.TabIndex = 86;
+            customButton1.Text = "  Upload Image";
+            customButton1.UseVisualStyleBackColor = false;
             // 
             // profileForm
             // 
@@ -718,12 +762,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1004, 663);
+            Controls.Add(customButton1);
             Controls.Add(btn_home);
             Controls.Add(pnl_driver);
             Controls.Add(btn_logOut);
             Controls.Add(btn_favourites);
             Controls.Add(panel2);
-            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(pnl_changePassword);
             Controls.Add(pnl_updateInfo);
@@ -732,15 +776,11 @@
             Text = "Profile";
             Load += profileForm_Load;
             ((System.ComponentModel.ISupportInitialize)nud_age).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pb_editProfile).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pb_changepassword).EndInit();
             pnl_userInfo.ResumeLayout(false);
             pnl_userInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             pnl_updateInfo.ResumeLayout(false);
             pnl_updateInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_cancel).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pb_name).EndInit();
             panel7.ResumeLayout(false);
             panel8.ResumeLayout(false);
             panel5.ResumeLayout(false);
@@ -752,17 +792,14 @@
             panel9.ResumeLayout(false);
             panel10.ResumeLayout(false);
             panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             pnl_changePassword.ResumeLayout(false);
             pnl_changePassword.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_cancelPassword).EndInit();
             panel17.ResumeLayout(false);
             panel18.ResumeLayout(false);
             panel18.PerformLayout();
             panel15.ResumeLayout(false);
             panel16.ResumeLayout(false);
             panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pb_savePassword).EndInit();
             panel11.ResumeLayout(false);
             panel12.ResumeLayout(false);
             panel12.PerformLayout();
@@ -783,8 +820,6 @@
         private TextBox txt_email;
         private NumericUpDown nud_age;
         private TextBox txt_address;
-        private PictureBox pb_editProfile;
-        private PictureBox pb_changepassword;
         private Panel pnl_userInfo;
         private Label label14;
         private Label label1;
@@ -804,9 +839,6 @@
         private Panel panel4;
         private Panel panel7;
         private Panel panel8;
-        private PictureBox pb_cancel;
-        private PictureBox pb_name;
-        private PictureBox pictureBox2;
         private Panel pnl_changePassword;
         private Panel panel11;
         private Panel panel12;
@@ -820,8 +852,6 @@
         private Panel panel16;
         private TextBox txt_newPassword;
         private Label label4;
-        private PictureBox pb_cancelPassword;
-        private PictureBox pb_savePassword;
         private Button btn_home;
         private FlowLayoutPanel pnl_driver;
         private Button btn_logOut;
@@ -830,5 +860,12 @@
         private Label lbl_shopify;
         private PictureBox pB_logo;
         private PictureBox pb_profileImage;
+        private CustomControls.CustomButton cbtn_savePassword;
+        private CustomControls.CustomButton cbtn_cancelPassword;
+        private CustomControls.CustomButton customButton1;
+        private CustomControls.CustomButton pb_cancelProfile;
+        private CustomControls.CustomButton cbtn_saveProfile;
+        private CustomControls.CustomButton cbtn_editProfile;
+        private CustomControls.CustomButton cbtn_changePassword;
     }
 }

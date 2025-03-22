@@ -22,3 +22,16 @@ D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.d
 D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\refint\Shopify.DataAccess.dll
 D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.pdb
 D:\ITI\ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\ref\Shopify.DataAccess.dll
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.deps.json
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\bin\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.csproj.AssemblyReference.cache
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.AssemblyInfoInputs.cache
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.AssemblyInfo.cs
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.csproj.CoreCompileInputs.cache
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.sourcelink.json
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.dll
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\refint\Shopify.DataAccess.dll
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\Shopify.DataAccess.pdb
+D:\ITI\16. ADO\Shopify\FinalProject.DataAccess\obj\Debug\net9.0\ref\Shopify.DataAccess.dll

@@ -18,102 +18,15 @@ namespace Shopify.presentation
     public partial class registerForm : Form
     {
         UserService userService;
-        bool showPassword;
+        private bool isVisiblePass = false;
+
         public registerForm()
         {
             InitializeComponent();
             userService = new UserService(ConfigurationManager.ConnectionStrings["Shopify"].ConnectionString);
-            showPassword = false;
             txt_username.Select();
         }
 
-
-        private void pb_register_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                string username = txt_username.Text;
-                string email = txt_email.Text;
-                string password = txt_password.Text;
-                int age = (int)nud_age.Value;
-                string address = txt_address.Text;
-                int flag = 1;
-                if (!Regex.IsMatch(username, @"^[a-zA-Z0-9 ]{3,}$"))
-                {
-                    flag = 0;
-                    MessageBox.Show("Username must be at least 3 characters long and contain only letters and numbers");
-                }
-                if (!Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"))
-                {
-                    flag = 0;
-
-                    MessageBox.Show("Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number.");
-                }
-                if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-                {
-                    flag = 0;
-                    MessageBox.Show("Please enter a valid email address (e.g., example@mail.com).");
-
-                }
-                if (age < 18 || age > 100)
-                {
-                    flag = 0;
-                    MessageBox.Show("Age must be a number between 18 and 99.");
-                }
-                if (!chb_terms.Checked)
-                {
-                    flag = 0;
-                    MessageBox.Show("You must accept the terms & conditions");
-
-                }
-                if (flag == 1)
-                {
-                    userService.insertUser(username, email, password, age, address, "User");
-                    MessageBox.Show("Added");
-                    loginForm login = new loginForm();
-                    login.StartPosition = FormStartPosition.Manual;
-                    login.Location = this.Location;
-                    login.Show();
-                    this.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void HandleShowPassword()
-        {
-            if (showPassword == false)
-            {
-                txt_password.PasswordChar = '\0';
-                showPassword = true;
-                pb_showPassword.Visible = false;
-                pb_unShowPassword.Visible = true;
-            }
-            else
-            {
-                txt_password.PasswordChar = '*';
-                showPassword = false;
-                pb_showPassword.Visible = true;
-                pb_unShowPassword.Visible = false;
-            }
-        }
-
-        private void lbl_showPassword_Click(object sender, EventArgs e)
-        {
-            HandleShowPassword();
-        }
-
-        private void pb_showPassword_Click(object sender, EventArgs e)
-        {
-            HandleShowPassword();
-        }
-        private void pb_unShowPassword_Click(object sender, EventArgs e)
-        {
-            HandleShowPassword();
-        }
 
 
         private void lbl_login_Click(object sender, EventArgs e)
@@ -178,6 +91,77 @@ namespace Shopify.presentation
                 lbl_passworderror.Text = "";
             }
 
+        }
+
+        private void cbtn_register_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string username = txt_username.Text;
+                string email = txt_email.Text;
+                string password = txt_password.Text;
+                int age = (int)nud_age.Value;
+                string address = txt_address.Text;
+                int flag = 1;
+                if (!Regex.IsMatch(username, @"^[a-zA-Z0-9 ]{3,}$"))
+                {
+                    flag = 0;
+                    MessageBox.Show("Username must be at least 3 characters long and contain only letters and numbers");
+                }
+                if (!Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"))
+                {
+                    flag = 0;
+
+                    MessageBox.Show("Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number.");
+                }
+                if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                {
+                    flag = 0;
+                    MessageBox.Show("Please enter a valid email address (e.g., example@mail.com).");
+
+                }
+                if (age < 18 || age > 100)
+                {
+                    flag = 0;
+                    MessageBox.Show("Age must be a number between 18 and 99.");
+                }
+                if (!chb_terms.Checked)
+                {
+                    flag = 0;
+                    MessageBox.Show("You must accept the terms & conditions");
+
+                }
+                if (flag == 1)
+                {
+                    userService.insertUser(username, email, password, age, address, "User");
+                    MessageBox.Show("Added");
+                    loginForm login = new loginForm();
+                    login.StartPosition = FormStartPosition.Manual;
+                    login.Location = this.Location;
+                    login.Show();
+                    this.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btn_showPassword_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            if (!isVisiblePass)
+            {
+                txt_password.PasswordChar = '\0';
+                btn.Image = (Image)Properties.Resources.Invisible_white;
+            }
+            else
+            {
+                txt_password.PasswordChar = '*';
+                btn.Image = (Image)Properties.Resources.Eye_white;
+            }
+            isVisiblePass = !isVisiblePass;
         }
     }
 }

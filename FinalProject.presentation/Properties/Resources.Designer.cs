@@ -63,9 +63,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _3487900 {
+        internal static System.Drawing.Bitmap _3516854 {
             get {
-                object obj = ResourceManager.GetObject("3487900", resourceCulture);
+                object obj = ResourceManager.GetObject("3516854", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8 {
+        internal static System.Drawing.Bitmap _3918950 {
             get {
-                object obj = ResourceManager.GetObject("360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8", resourceCulture);
+                object obj = ResourceManager.GetObject("3918950", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap admin_concept_illustration_114360_2248 {
+        internal static System.Drawing.Bitmap Camera {
             get {
-                object obj = ResourceManager.GetObject("admin-concept-illustration_114360-2248", resourceCulture);
+                object obj = ResourceManager.GetObject("Camera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap download_removebg_preview {
+        internal static System.Drawing.Bitmap Eye {
             get {
-                object obj = ResourceManager.GetObject("download-removebg-preview", resourceCulture);
+                object obj = ResourceManager.GetObject("Eye", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pngtree_shopping_cart_convenient_icon_png_image_4637407 {
+        internal static System.Drawing.Bitmap Eye_white {
             get {
-                object obj = ResourceManager.GetObject("pngtree-shopping-cart-convenient-icon-png-image_4637407", resourceCulture);
+                object obj = ResourceManager.GetObject("Eye_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_153730 {
+        internal static System.Drawing.Bitmap Invisible {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 153730", resourceCulture);
+                object obj = ResourceManager.GetObject("Invisible", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_154711 {
+        internal static System.Drawing.Bitmap Invisible_white {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 154711", resourceCulture);
+                object obj = ResourceManager.GetObject("Invisible_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_163348 {
+        internal static System.Drawing.Bitmap Logout {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 163348", resourceCulture);
+                object obj = ResourceManager.GetObject("Logout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_165535 {
+        internal static System.Drawing.Bitmap Logout1 {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 165535", resourceCulture);
+                object obj = ResourceManager.GetObject("Logout1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_210809 {
+        internal static System.Drawing.Bitmap Shopping_Cart {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 210809", resourceCulture);
+                object obj = ResourceManager.GetObject("Shopping Cart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_2108091 {
+        internal static System.Drawing.Bitmap Shopping_Cart_white {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 2108091", resourceCulture);
+                object obj = ResourceManager.GetObject("Shopping Cart_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_211157 {
+        internal static System.Drawing.Bitmap Shopping_Cart1 {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 211157", resourceCulture);
+                object obj = ResourceManager.GetObject("Shopping Cart1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_220129 {
+        internal static System.Drawing.Bitmap User {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 220129", resourceCulture);
+                object obj = ResourceManager.GetObject("User", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,129 +203,9 @@ namespace Shopify.presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_220354 {
+        internal static System.Drawing.Bitmap User_white {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 220354", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_21_221735 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-21 221735", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_141736 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 141736", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_141855 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 141855", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_154620 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 154620", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_1546201 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 1546201", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_1546202 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 1546202", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_160722 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 160722", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_162429 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 162429", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_162900 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 162900", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_184957 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 184957", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_192515 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 192515", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_02_22_193153 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-02-22 193153", resourceCulture);
+                object obj = ResourceManager.GetObject("User_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
